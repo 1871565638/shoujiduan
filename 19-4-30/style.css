@@ -1,0 +1,110 @@
+/* 
+* @Author: 涅孽
+* @Date:   2019-04-30 15:32:59
+* @Last Modified by:   涅孽
+* @Last Modified time: 2019-05-07 17:22:14
+*/@charset "utf-8";
+body,ul,ol,li,dl,dd,h1,h2,h3,h4,h5,h6,p,input,textarea,select,figure{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+textarea,select{border: none; background-color: transparent; outline: none;}
+textarea{resize: none;}
+img{border: none;vertical-align: top;}
+a{text-decoration: none;}
+a {-webkit-tap-highlight-color:transparent;}
+html {-webkit-text-size-adjust: none;}
+a{outline:0}
+em{ font-style: normal;}
+.fl{float: left;} .fr{float: right;}
+.clearfix:after,.clearfix:before{content: ""; display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+body{
+	background-color: #F0F0F0;
+}
+.box{
+	 width: 0rem;
+	position: relative;
+	height: 59.025rem;
+	margin:0 0 0 2px;
+	
+}
+ .head{
+ 	 width: 15.9rem;
+ 	 height: 7.25rem; 
+ }
+ .top{
+ 	width:16.9rem;
+    height:2.25rem;
+    margin-left:0.5rem;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    position:fixed;
+    margin-left: 0;
+
+ }
+ .top p{
+    color:white;
+    font-size:0.5rem;
+    margin-top:-0.175rem;
+
+
+ }
+ .top .cdl{
+ 	float:left;
+ 	margin-top: 0.2rem;
+ 	margin-left: 0.5rem;
+ }
+ .top input{
+ 	float: left;
+ 	width:9.9rem;
+     height:1.4rem;
+     border-radius:2%;
+     margin-top: 0.375rem;
+     margin-left: 0.65rem;
+     color: #A0A0A0;
+     padding-left: 0.6rem;
+     position: relative;
+ 
+ }
+ .top .ss{
+ 	position:absolute;
+ 	left: 11.125rem;bottom: 0.4rem;
+ }
+ .top .gwc{
+ 	margin-top: 0.5rem;
+ 	float: left;
+ 	margin-left:0.8rem;
+ }
+ .head img{
+ 	
+	left:0rem;top:0rem;	
+ 	 width: 15.9rem;
+ 	height: 7.125em;
+ }
+ .con{
+ 	width:15.5rem;
+ height:8.225rem;
+  background-color:#FFFFFF;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+ }
+ .con ul{
+ 	margin-left: 0.7rem;
+ 	padding-top:0.6rem;
+
+ }
+ .con li{
+ 	float: left;
+ 	margin-right: 1.2rem;
+ 	
+ }
+ .con li p{
+ 	margin-top:0.25rem;
+ 	margin-left: 0.3rem;
+ 	font-size:0.5rem;
+ }
+ .con li img{
+ 	width: 2.5em;
+ 	height: 2.5em;
+ }
+ 

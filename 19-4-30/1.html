@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font_rc/iconfont.css">
+        <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+
+    </script>
+    </head>
+    <body>
+    <div class="box">
+       <div class="top">
+         <div class="cdl">
+       	 <span class="iconfont icon-caidanlan" ></span>
+       	 <p>分类</p>
+       	 </div>
+       	 <input type="text" value="输入搜索关键词"/>
+       	 <div class="ss"><span class="iconfont icon-search" ></span> </div>
+       	 <div class="gwc">
+       	 	<span class="iconfont icon-qicheqianlian-1" ></span>
+       	 </div>
+       </div>        
+   
+    <div class="head">
+    	<img src="1_r4_c1.png"  alt="">
+    </div>
+    <div class="con">
+    	<ul>
+    		<li> <img src="zxy.png"  alt=""><p>中西药</p> </li>
+    		<li><img src="rkyy.png"  alt=""><p>儿科用药</p></li>
+    		<li><img src="pfyy.png"  alt=""><p>皮肤用药</p></li>
+    		<li><img src="yyqx.png"  alt="" style="margin-right: 0rem;"><p>医疗器械</p></li>
+    	</ul>
+    	<ul>
+    		<li> <img src="zxy.png"  alt=""><p>中西药</p> </li>
+    		<li><img src="rkyy.png"  alt=""><p>儿科用药</p></li>
+    		<li><img src="pfyy.png"  alt=""><p>皮肤用药</p></li>
+    		<li><img src="yyqx.png"  alt="" style="margin-right: 0rem;"><p>医疗器械</p></li>
+    	</ul>
+    </div>
+
+
+   </div>
+    </body>
+</html>
